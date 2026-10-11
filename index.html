@@ -1,0 +1,261 @@
+<!DOCTYPE html> <!-- Указывает на стандарт HTML5 -->
+<html lang="ru"> <!-- Язык документа: русский -->
+<head>
+  <meta charset="UTF-8"> <!-- Кодировка документа -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Адаптивность для мобильных -->
+  <title>WellNest</title> <!-- Заголовок вкладки -->
+
+  <!-- Подключение шрифтов Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400&family=Nunito:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Подключение CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ======= ШАПКА (HEADER) ======= -->
+  <header class="header"> <!-- Основной контейнер шапки -->
+    <div class="logo">
+        <img src="images/logo.svg" alt="Логотип WellNest"> <!-- Логотип -->
+    </div>
+
+    <!-- Навигация -->
+    <nav class="nav">
+      <a href="#" class="active">главная</a> 
+      <a href="about.html">о нас</a>
+      <a href="services.html">услуги</a>
+      <a href="advantages.html">преимущества</a>
+      <a href="reviews.html">отзывы</a>
+      <a href="blog.html">блог</a>
+      <a href="#contacts">контакты</a> <!-- Ссылка на футер -->
+    </nav>
+
+    <!-- Кнопка "Связаться" в шапке -->
+    <button class="btn btn-green">Связаться</button>
+  </header>
+
+  <!-- ======= ОБЛОЖКА (HERO) ======= -->
+  <section class="hero"> 
+    <div class="hero-text">
+      <h1>WellNest</h1>
+      <p>Уникальные мероприятия на природе для отдыха и восстановления</p>
+      <div class="hero-buttons"> <!-- Контейнер для кнопок -->
+        <button class="btn btn-blue">Создать план отдыха</button>
+        <a href="about.html" class="btn btn-outline">Узнать больше</a>
+      </div>
+    </div>
+
+    <!-- Правая часть: изображение -->
+    <div class="hero-image">
+      <img src="images/hero.png" alt="Природа и отдых">
+    </div>
+  </section>
+
+  <!-- ======= БЛОК О КОМПАНИИ ======= -->
+  <div class="about">
+    <p>
+      Мы организуем атмосферные мероприятия на природе, где команды могут укрепить взаимоотношения, перезагрузиться и вдохновиться. 
+      Присоединяйтесь к нашим событиям и откройте для себя новые возможности для отдыха.
+    </p>
+    <button class="btn btn-green">Узнать больше</button>
+  </div>
+
+  <!-- ======= БЛОК "УСЛУГИ" ======= -->
+  <section class="services">
+    <h2 class="section-title">услуги</h2>
+
+    <!-- 🔹 1 линия услуг -->
+    <div class="services-row">
+      <div class="service-card col-5"> <!-- Карточка услуги -->
+        <img src="images/corporate_programs.png" alt="Корпоративные программы">
+        <div class="service-content">
+          <div class="service-header">
+            <h3>корпоративные программы</h3>
+            <a href="services.html" class="arrow-btn">
+              <img src="images/Arrow.svg" alt="Перейти">
+            </a>
+          </div>
+          <p>— программы для команд, направленные на тимбилдинг и улучшение рабочего климата</p>
+        </div>
+      </div>
+
+      <div class="service-card col-7">
+        <img src="images/weekend_retreats.png" alt="Уикенд-ретриты">
+        <div class="service-content">
+          <div class="service-header">
+            <h3>уикенд-ретриты</h3>
+            <a href="services.html" class="arrow-btn">
+              <img src="images/Arrow.svg" alt="Перейти">
+            </a>
+          </div>
+          <p>— организация выездных мероприятий на природе для восстановления и релаксации</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 2 линия услуг -->
+    <div class="services-row">
+      <div class="service-card col-7">
+        <img src="images/community.png" alt="Сообщество">
+        <div class="service-content">
+          <div class="service-header">
+            <h3>сообщество</h3>
+            <a href="services.html" class="arrow-btn">
+              <img src="images/Arrow.svg" alt="Перейти">
+            </a>
+          </div>
+          <p>— платформа для клиентов, чтобы делиться опытом и поддерживать друг друга</p>
+        </div>
+      </div>
+
+      <div class="service-card col-5">
+        <img src="images/group_classes.png" alt="Групповые занятия и тренинги">
+        <div class="service-content">
+          <div class="service-header">
+            <h3>групповые занятия и тренинги</h3>
+            <a href="services.html" class="arrow-btn">
+              <img src="images/Arrow.svg" alt="Перейти">
+            </a>
+          </div>
+          <p>— организация групповых занятий по медитации, йоге и дыхательным практикам</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 3 линия услуг -->
+    <div class="services-row">
+      <div class="service-card col-5">
+        <img src="images/online_resources.png" alt="Онлайн-ресурсы">
+        <div class="service-content">
+          <div class="service-header">
+            <h3>доступ к онлайн-ресурсам</h3>
+            <a href="services.html" class="arrow-btn">
+              <img src="images/Arrow.svg" alt="Перейти">
+            </a>
+          </div>
+          <p>— библиотека статей, видео и материалов по саморазвитию и wellness</p>
+        </div>
+      </div>
+
+      <div class="service-card col-7">
+        <img src="images/experts.png" alt="Эксперты">
+        <div class="service-content">
+          <div class="service-header">
+            <h3>консультации с экспертами</h3>
+            <a href="services.html" class="arrow-btn">
+              <img src="images/Arrow.svg" alt="Перейти">
+            </a>
+          </div>
+          <p>— персонализированные консультации с нутрициологами и коучами</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 4 линия услуг -->
+    <div class="services-row">
+      <div class="service-card col-7">
+        <img src="images/master_classes.png" alt="Мастер-классы">
+        <div class="service-content">
+          <div class="service-header">
+            <h3>образовательные вебинары и мастер-классы</h3>
+            <a href="services.html" class="arrow-btn">
+              <img src="images/Arrow.svg" alt="Перейти">
+            </a>
+          </div>
+          <p>— онлайн-сессии на темы здоровья, питания и стресс-менеджмента</p>
+        </div>
+      </div>
+
+      <div class="service-card col-5">
+        <img src="images/recovery.png" alt="Восстановление">
+        <div class="service-content">
+          <div class="service-header">
+            <h3>персонализированные планы восстановления</h3>
+            <a href="services.html" class="arrow-btn">
+              <img src="images/Arrow.svg" alt="Перейти">
+            </a>
+          </div>
+          <p>— индивидуальные программы, разработанные с учетом образа жизни и целей клиента</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= ПРИЗЫВ К ДЕЙСТВИЮ (CTA) ======= -->
+  <div class="cta">
+    <p>
+      Присоединяйтесь к нам, чтобы получить поддержку на каждом этапе вашего пути и улучшить качество жизни.
+    </p>
+    <button class="btn btn-green">Создать план отдыха</button>
+  </div>
+
+  <!-- ======= ПОДВАЛ (FOOTER) ======= -->
+  <footer class="footer" id="contacts">
+    <div class="footer-container">
+      <!-- Верхняя часть футера -->
+      <div class="footer-top">
+        <!-- Левая колонка: логотип и соцсети -->
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img src="images/logo_white.svg" alt="Логотип WellNest">
+          </div>
+          <div class="socials">
+            <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="images/telegram.svg" alt="Telegram"></a>
+            <a href="#"><img src="images/youtube.svg" alt="YouTube"></a>
+          </div>
+          <p class="footer-email">info.wellnest@gmail.com</p>
+        </div>
+
+        <!-- Центральная колонка: меню -->
+        <div class="footer-center">
+          <div class="footer-menu">
+            <div class="menu-column">
+              <a href="#">Главная</a>
+              <a href="about.html">О нас</a>
+              <a href="services.html">Услуги</a>
+              <a href="advantages.html">Преимущества</a>
+            </div>
+            <div class="menu-column">
+              <a href="reviews.html">Отзывы</a>
+              <a href="blog.html">Блог</a>
+              <a href="#">Контакты</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Правая колонка: кнопки -->
+        <div class="footer-right">
+          <button class="btn btn-outline">Связаться</button><br>
+          <button class="btn btn-blue">Создать план отдыха</button>
+        </div>
+      </div>
+
+      <!-- Нижняя линия футера -->
+      <div class="footer-bottom">
+        <!-- Левый блок: копирайт -->
+        <div class="bottom-left">
+          <span>© 2024 WellNest</span>
+          <span>Все права защищены</span>
+        </div>
+
+        <!-- Центральный блок: политика конфиденциальности -->
+        <div class="bottom-center">
+          <a href="#">Политика конфиденциальности и обработки персональных данных</a>
+        </div>
+
+        <!-- Правый блок: дисклеймер про Instagram -->
+        <div class="bottom-right">
+          <p class="meta">
+            *Instagram — проект<br>
+            Meta Platforms Inc.,<br>
+            деятельность которой<br>
+            на территории РФ запрещена
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
